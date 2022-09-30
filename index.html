@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="es">
+    <title>Veterinaria</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <!--Inclide Bootstrap-->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    
+    
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+
+<body>
+    <!--Encabezado-->
+    <header>
+        <h1>Publish pokemons</h1>
+    </header>
+    <!--Contenido-->
+    <main>
+        <!--Sección de datos-->
+        <section id="section-table">
+            <table class="table" width="80">
+                <!--Encabezado-->
+                <thead class="table-dark">
+                    <tr>
+                        <th id="foto">Foto</th>
+                        <th id="nombre">Nombre</th>
+                        <th id="desc">Descripción</th>
+                        <th id="acc">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td id="input-url">
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="floating_url" placeholder="Url">
+                                <label for="floating_url" class="label" id="label-url">Url</label>
+                            </div>
+                        </td>
+                        <td id="input-name">
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="floating_name" placeholder="Nombre Pokemon">
+                                <label for="floating_name" class="label pokemon_name" id="label-name">Nombre Pokemon</label>
+                            </div>
+                        </td>
+                        <td id="input-desc">
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="floating_desc" placeholder="Descripcion">
+                                <label for="floating_desc" class="label" id="label-desc">Descripcion</label>
+                            </div>
+                        </td>
+                        <td class="acciones">
+                            <button class="btn btn-primary" id="add_button">Añadir</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="section-grids">
+            <div class="row row-cols-1 row-cols-md-4 g-4" id="contenedor">
+                <div class="col">
+                  <div class="card h-100">
+                    <img class="img-card" src="https://static.wikia.nocookie.net/pokexpertodex/images/7/75/Imagescsf.jpg/revision/latest?cb=20121112203114&path-prefix=es" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Kadabra</h5>
+                      <p class="card-text">This pokemon can hipnotized you or somyhing like that. I don't know, I hardly remember. It's been a time since i watched pokemon</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img class="img-card" src="https://pbs.twimg.com/profile_images/538228908508721152/pmuewX5R_400x400.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Baculao</h5>
+                      <p class="card-text">El pokemon salvaje</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col">
+                    <div class="card h-100">
+                        <img class="img-card" src="https://static.wikia.nocookie.net/vetealavershstar/images/6/68/Puchamon_Pitochu_by_killerman55.png/revision/latest?cb=20110409040010&path-prefix=es" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Pitochu</h5>
+                        <p class="card-text">Rata Rabiosa.</p>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+        </section>
+    </main>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

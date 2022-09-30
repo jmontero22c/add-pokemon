@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(195, 195, 195);
+}
+.table{
+    text-align: center;
+}
+.column1{
+    width:100px;
+}
+.acciones{
+    width: 10%;
+}
+.img-card{
+    max-width: 100%;
+    max-height: auto;
+}
+.card{
+    width: 80%;
+}
+.card{
+    overflow: hidden;
+}
+.row{
+    padding-left: 30px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+
+.label{
+    text-align: left;
+}
+
+#input-name{
+    max-width: 100px;
+}
+#input-url{
+    width: 200px;
+}
+header{
+    background-color: #212529;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
